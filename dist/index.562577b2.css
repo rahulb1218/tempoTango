@@ -1,0 +1,569 @@
+html, body {
+  overflow: hidden;
+}
+
+.iphone-pro {
+  background-color: #3c0068;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.iphone-pro .div {
+  background-color: #3c0068;
+  width: 393px;
+  height: 852px;
+  position: relative;
+  overflow: hidden;
+}
+
+.iphone-pro .text-wrapper {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 393px;
+  font-family: Roboto, Helvetica;
+  font-size: 61px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 231px;
+  left: 0;
+}
+
+.iphone-pro .p {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 323px;
+  font-family: Roboto, Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 326px;
+  left: 34px;
+}
+
+.iphone-pro .bigButton {
+  background-color: #000;
+  border-radius: 90px;
+  width: 353px;
+  height: 100px;
+  position: absolute;
+  top: 514px;
+  left: 19px;
+}
+
+.iphone-pro .text-wrapper-2 {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 232px;
+  font-family: Roboto, Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  left: 24px;
+}
+
+.iphone-pro .spotifyicon {
+  object-fit: cover;
+  width: 59px;
+  height: 59px;
+  position: absolute;
+  top: 21px;
+  left: 266px;
+}
+
+.slide-enter {
+  animation: .5s forwards slide-in;
+}
+
+.screen {
+  transition: transform .5s ease-in-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.iphone-pro .playButtonMain {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  left: 142px;
+}
+
+.iphone-pro .rules {
+  color: #fff;
+  letter-spacing: 0;
+  width: 301px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  position: absolute;
+  top: 196px;
+  left: 45px;
+}
+
+.iphone-pro .ruleHeading {
+  color: #fff;
+  letter-spacing: 0;
+  width: 351px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 143px;
+  left: 24px;
+}
+
+.iphone-pro #spotifyGreen {
+  background-color: #1ed760;
+}
+
+.iphone-pro .controls {
+  width: 100%;
+  height: 169px;
+  position: absolute;
+  top: 345px;
+  left: 3px;
+}
+
+.iphone-pro .insideControls {
+  width: 512px;
+  height: 169px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iphone-pro .insideControlsRight {
+  width: 429px;
+  height: 162px;
+  position: absolute;
+  top: 7px;
+  left: 83px;
+}
+
+.iphone-pro .answerBox {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: #000;
+  border-radius: 90px;
+  width: 174px;
+  height: 65px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 97px;
+  left: 42px;
+}
+
+.iphone-pro .img {
+  width: 228px;
+  height: 65px;
+  position: absolute;
+  top: 33px;
+  left: 201px;
+}
+
+.iphone-pro .submitButton {
+  background-color: #000;
+  border-radius: 90px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 97px;
+  left: 230px;
+}
+
+.iphone-pro .playTrackButton {
+  background-color: #1ed760;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 23px;
+  left: 206px;
+}
+
+.iphone-pro .playTrackIcon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  translate: -50%;
+}
+
+.iphone-pro .progressBar {
+  background-color: #d9d9d9;
+  border-radius: 90px;
+  width: 222px;
+  height: 5px;
+  position: absolute;
+  top: 74px;
+  left: 0;
+}
+
+.iphone-pro .elapsedLine {
+  object-fit: cover;
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  top: 69px;
+  left: 110px;
+}
+
+.iphone-pro .trackLength {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 27px;
+  font-family: Roboto-Medium, Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  left: 222px;
+}
+
+.iphone-pro .submitArrow {
+  width: 45px;
+  height: 45px;
+}
+
+.iphone-pro .bpmLabel {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 125px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 109px;
+  left: 0;
+}
+
+.iphone-pro .trackName {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Roboto-Medium, Helvetica;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iphone-pro .artist {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: Roboto-Light, Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iphone-pro .replayButton {
+  background-color: #de5b12;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 30px;
+  left: 39px;
+}
+
+.iphone-pro .replayIcon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.iphone-pro .elapsedTime {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 27px;
+  font-family: Roboto-Medium, Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 77px;
+  left: 55px;
+}
+
+.iphone-pro .albumCover {
+  object-fit: cover;
+  width: 250px;
+  height: 251px;
+  position: absolute;
+  top: 87px;
+  left: 72px;
+}
+
+.iphone-pro .topBar {
+  background-color: #000;
+  width: 393px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iphone-pro .trackNumber {
+  color: #fff;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  left: 18px;
+}
+
+.iphone-pro .score {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: right;
+  white-space: nowrap;
+  width: 158px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  left: 203px;
+}
+
+.result-screen {
+  background-color: #3c0068;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.result-screen .div {
+  background-color: #3c0068;
+  width: 393px;
+  height: 852px;
+  position: relative;
+}
+
+.result-screen .continueButton {
+  background-color: #000;
+  border-radius: 90px;
+  width: 353px;
+  height: 100px;
+  position: absolute;
+  top: 514px;
+  left: 19px;
+}
+
+.result-screen .arrow-icon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  left: 143px;
+}
+
+.result-screen .score-change {
+  color: #1ed760;
+  letter-spacing: 0;
+  white-space: nowrap;
+  justify-items: center;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 133px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.result-screen .score-response {
+  color: #1ed760;
+  letter-spacing: 0;
+  text-align: center;
+  width: 292px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 114px;
+  left: 50px;
+}
+
+.result-screen .bpmSection {
+  width: 292px;
+  height: 83px;
+  position: absolute;
+  top: 382px;
+  left: 69px;
+}
+
+.result-screen .your-BPM {
+  color: #1ed760;
+  letter-spacing: 0;
+  width: 282px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.result-screen .track-BPM {
+  color: #1ed760;
+  letter-spacing: 0;
+  width: 282px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.final-screen {
+  background-color: #3c0068;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.final-screen .div {
+  background-color: #3c0068;
+  width: 393px;
+  height: 852px;
+  position: relative;
+}
+
+.final-screen .replayGameButton {
+  background-color: #000;
+  border-radius: 90px;
+  width: 353px;
+  height: 100px;
+  position: absolute;
+  top: 514px;
+  left: 19px;
+}
+
+.final-screen .replay-game-icon {
+  filter: invert();
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  left: 143px;
+}
+
+.final-screen .final-score {
+  color: #fff;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 133px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.final-screen .final-score-label {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  width: 292px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 114px;
+  left: 50px;
+}
+
+.final-screen .play-again-message {
+  color: #fff;
+  letter-spacing: 0;
+  width: 282px;
+  font-family: Roboto-Regular, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 422px;
+  left: 69px;
+}
+
+.iphone-pro .centered-input {
+  z-index: 1000;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.blur-overlay {
+  z-index: 999;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.562577b2.css.map */

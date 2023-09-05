@@ -1,0 +1,9 @@
+Rectangle - answerBoxBG
+Rectangle - submitButton
+Text-wrapper - answerBox
+Ellipse - playTrackButton
+Solar-play-bold - playTrackIcon
+Rectangle3 - progressBar
+Line - elapsedLine
+Text 2 - trackLength
+Maki-arrow - submitArrow
